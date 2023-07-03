@@ -1,9 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2023-07-01T14:00:47.243Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" version="21.5.2" etag="_fG1_8v6KufSmWKEgRHm" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-03T04:42:17.033Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15" etag="CCFpIIRpQADvv0UPfoTp" version="21.5.2" type="github">
   <diagram name="Страница 1" id="Q-SNJgDCKjJDv513DQxp">
-    <mxGraphModel>
+    <mxGraphModel dx="1096" dy="652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Nz1S2oW-4iJForifvsgU-1" value="order_item" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nz1S2oW-4iJForifvsgU-2" value="gr_note" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nz1S2oW-4iJForifvsgU-6" value="&lt;h1&gt;Что сейчас можно&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Товар привязан к накладной и заказу.&lt;/b&gt; В product item нужно добавить поле можно дублировать имя&lt;/p&gt;&lt;p&gt;&lt;b&gt;Можно провалится в товар.&amp;nbsp;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Список товаров для добавления в заказ. &lt;/b&gt;Можно сделать rest запросом. Вынести в отдельную форму?&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="160" width="650" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Nz1S2oW-4iJForifvsgU-8" value="based on EBS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="420" width="380" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Nz1S2oW-4iJForifvsgU-10" value="REST product list" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nz1S2oW-4iJForifvsgU-12" value="REST place order" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="480" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nz1S2oW-4iJForifvsgU-16" value="product MS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="420" width="410" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Nz1S2oW-4iJForifvsgU-19" value="based on EBS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="660" width="410" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Nz1S2oW-4iJForifvsgU-20" value="REST product list" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nz1S2oW-4iJForifvsgU-21" value="REST place order" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="680" width="160" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
